@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="menu-icon">&#9776;</div>
+    </nav>
+
+    <div class="login-container">
+        <input type="text" placeholder="Masukan email / no hp" class="input-field">
+        <input type="password" placeholder="Masukan kata sandi" class="input-field">
+
+        <div class="options">
+            <label><input type="checkbox"> Ingatkan saya</label>
+            <a href="#">Lupa password</a>
+        </div>
+
+        <button onclick="login()" class="login-button">MASUK</button>
+
+        <p>Belum Punya Akun ? <a href="#">Register</a></p>
+
+        <div class="divider">
+            <hr><span>Atau</span><hr>
+        </div>
+
+        <div class="social-icons">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
